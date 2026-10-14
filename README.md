@@ -1,17 +1,23 @@
-# React + Vite
+# Pokemon Go Card Game – React Pokemon Card Battle App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and responsive **Pokemon Card Game** developed with React. The application randomly distributes Pokémon from an existing list into two teams, compares their total experience points, and determines the winning team. Pokemon images are fetched from the PokeAPI.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was developed to practice React's component-based architecture, props, state management, and dynamic list rendering.
 
-## React Compiler
+When the application starts, two random teams are generated from the existing Pokémon list. Each team's total experience points are calculated, and the results are displayed as **Winning Player** and **Losing Player**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript (ES6)
+- CSS3
+- Class Components
+- Props & DefaultProps
+- PokeAPI
+- Array Methods (`map`, `reduce`, `splice`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Pokedex-project
+## 👀 Preview
+
+![](pokedex.gif)
